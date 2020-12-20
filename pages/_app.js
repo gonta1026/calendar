@@ -1,3 +1,4 @@
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
