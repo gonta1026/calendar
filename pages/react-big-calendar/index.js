@@ -57,7 +57,7 @@ export default function ReactBigCarendar() {
           events={eventList} //配列でイベントを入れれる
           timeslots={4} //時間の区切り
           defaultView={Views.WEEK} //デフォルトの表示
-          onSelectEvent={(event) => alert(event)} //イベントをクリックした時の動作を指定s
+          onSelectEvent={(event) => alert(`${event.title}をクリック！`)} //イベントをクリックした時の動作を指定s
           style={{ height: 600 }} //カレンダーの全体の高さ
         />
       </div>
